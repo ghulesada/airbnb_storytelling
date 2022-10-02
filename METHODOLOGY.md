@@ -15,4 +15,14 @@ last_review is missinterpretted as object dtype by pandas, so typecasting it to 
 
 last_review and reviews_per_month are having null values in same identical columns
 
+## Outlier Detection
+- host_id
+- latitude
+- longitude
+- price
+- minimum_nights
+- number_of_reviews
+- reviews_per_month
+- calculated_host_listings_count
+
 
