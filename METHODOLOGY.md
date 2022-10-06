@@ -20,9 +20,22 @@ last_review and reviews_per_month are having null values in same identical colum
 - latitude
 - longitude
 - price
+low_cost, budget, permium, luzury
+
 - minimum_nights
+cat
+
 - number_of_reviews
+categorical columns or we can cap the very extreme outliers to 400
+
 - reviews_per_month
+    - 59 is the highest reviwed host per month
+    We can cap the reviews which are above 15 to the value 15
+
 - calculated_host_listings_count
+
+
+## number_of_reviews
+
 
 
